@@ -1,0 +1,19 @@
+{
+  "name": "continuable-para",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/continuable-para",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/continuable-para.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"  
+}
