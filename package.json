@@ -8,6 +8,8 @@
     "url": "git://github.com/dominictarr/continuable-para.git"
   },
   "dependencies": {
+    "continuable-hash": "0.1.2",
+    "continuable-list": "0.1.3"
   },
   "devDependencies": {
   },
