@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "continuable-hash": "~0.1.2",
-    "continuable-list": "~0.1.3"
+    "continuable-list": "~0.1.3",
+    "continuable": "~1.1.6"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "set -e; for t in test/*.js; do node $t; done"
+    "test": "node test.js"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
