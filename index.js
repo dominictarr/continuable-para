@@ -1,12 +1,11 @@
 var list = require('continuable-list')
 var hash = require('continuable-hash')
-var maybeCallback = require('continuable/maybe-callback')
 
-module.exports = maybeCallback(function (obj) {
+module.exports = function (obj, cb) {
   if(Array.isArray(obj))
-    return list(obj)
+    return list(obj, cb)
   else if('object' === typeof obj)
-    return hash(obj)
+    return hash(obj, cb)
   else
     return list([].slice.call(arguments))
-})
+}
